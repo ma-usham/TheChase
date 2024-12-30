@@ -260,7 +260,7 @@ void Main_menu::load_scene()
 		instruction_keyboard->write.setString("\t----KEYBOARD---- \n\n W - Up \n A - Left \n S - Down \n D - Right \n P - Pause/Play \n Esc - Back/Exit \n Left Click - Fire/Shoot \n Right Click - Special Power");
 		instruction_keyboard->write.setLetterSpacing(2);
 		instruction_keyboard->write.setCharacterSize(30);
-		instruction_joystick->write.setString("\t ----JOYSTICK---- \n\n Left Analog - Move Player \n Right Buttons (X,Y,A,B) - Fire/Shoot \n Start/RB - Pause/Play \n Back/LB - Back/Exit \n LB - Special Power");
+		instruction_joystick->write.setString("\t ----JOYSTICK---- \n\n Left Analog - Move Player \n Right Buttons (X,Y,A,B) - Fire/Shoot \n Start/RB - Pause/Play \n Back/LB - Back/Exit \n LT - Special Power");
 		instruction_joystick->write.setLetterSpacing(2);
 		instruction_joystick->write.setCharacterSize(30);
 		while (window.isOpen())
@@ -330,7 +330,7 @@ void Main_menu::load_scene()
 				break;
 
 			}
-			about_us->write.setString("\t\t\t\t\tABOUT US \n\n Hello There! and welcome to the game.... \n This is a game developed by a students of 2nd semester by using c++. \n Feel free to play the game. \n Any kind of response and feedback is acceptable.");
+			about_us->write.setString("\t\t\t\t\tABOUT US \n\n Hello There! and welcome to the game.... \n This is an indie game developed by using c++. \n Feel free to play the game. \n Any kind of response and feedback is acceptable.");
 			window.clear(sf::Color::Black);
 			window.draw(menu_background);
 			about_us->write.setCharacterSize(35);
