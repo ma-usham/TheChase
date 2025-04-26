@@ -1,4 +1,4 @@
-Just Open the Exe Game folder and play the game.
+Just Open the exe Game folder to play the game.
 
 Do not change or delete any file/folder. Else, The game could crash.
 
